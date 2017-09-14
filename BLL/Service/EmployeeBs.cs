@@ -3,7 +3,7 @@ using DAL;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BLL
+namespace BLL.Service
 {
     public class EmployeeBs
     {

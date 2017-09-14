@@ -1,7 +1,6 @@
 ﻿using BOL;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace DAL
@@ -9,9 +8,9 @@ namespace DAL
     public class RoleDb: DALBase
     {
 
-        public  IList<Role> GetALL()
+        public async Task< IList<Role>> GetALL()
         {
-           return db.Roles.ToList();
+           return await db.Roles.ToListAsync();
         }
 
         public Role GetById(int Id)
