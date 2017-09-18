@@ -5,7 +5,7 @@ using System.Configuration;
 using System.Diagnostics.CodeAnalysis;
 
 
-namespace DTPTest
+namespace Dreamer.HR.Test
 {
 
     [ExcludeFromCodeCoverage]
@@ -37,7 +37,7 @@ namespace DTPTest
                 }
             };
 
-            _checkpoint.Reset(ConfigurationManager.ConnectionStrings["DTPdb"].ConnectionString);
+            _checkpoint.Reset(ConfigurationManager.ConnectionStrings["HRdb"].ConnectionString);
         }
 
         private void SeedData()

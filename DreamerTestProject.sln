@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOL", "BOL\BOL.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FF12B469-7800-4DB0-B31D-D7BFA3B4D47B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTPTest", "DTPTest\DTPTest.csproj", "{65E9BEDE-CC26-4A81-87C2-38CC78BB21AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.HR.Test", "DTPTest\Dreamer.HR.Test.csproj", "{65E9BEDE-CC26-4A81-87C2-38CC78BB21AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{5042F10A-7A3F-46BD-BDF0-24DE256883E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dreamer.HR", "Dreamer.HR\Dreamer.HR.csproj", "{8074B5D0-36F6-4785-BD9D-BA76232376CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5042F10A-7A3F-46BD-BDF0-24DE256883E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5042F10A-7A3F-46BD-BDF0-24DE256883E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5042F10A-7A3F-46BD-BDF0-24DE256883E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8074B5D0-36F6-4785-BD9D-BA76232376CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8074B5D0-36F6-4785-BD9D-BA76232376CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8074B5D0-36F6-4785-BD9D-BA76232376CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8074B5D0-36F6-4785-BD9D-BA76232376CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
